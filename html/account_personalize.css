@@ -1,0 +1,40 @@
+.banner{
+    /* makes a banner that stretches the width of the current page size and a height of no more than 500 px and will be filled with a given solid color */
+    min-height: 150px;
+    max-height: 500px;
+    min-width: 1366px;
+    max-width: 2560px;
+    height: auto;
+    width: auto;
+    border: 2px outset black;
+}
+
+.bio{
+    /* should make a border that takes the left third of the page and a height that can contain the max character limit plus padding */
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border: 2px outset black;
+}
+
+.pfpic{
+    /* should draw the image as a circle and position it in the middle of the page and slightly below the banner, top in line with bio */
+    border-radius: 50%;
+}
+
+.username{
+    /* should make a small bordered box that is wide enough for the max character limit of usernames with extra padding */
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border: 2px outset black;
+}
+
+.posts{
+    /*should add a border around post that takes the near-width of the screen and height that adjusts automatically depending on how much content is inside*/
+    border: 2px, outset black;
+    min-width: 1366px;
+    max-width: 2560px;
+    width: auto;
+    height: auto;
+}
